@@ -2,7 +2,7 @@ import telebot
 from telebot.types import Message
 import time
 
-bot = telebot.TeleBot("7838586771:AAHX5wvomXJC0K7E3ZfSOp17vrHqp3Zbp8M")
+bot = telebot.TeleBot("Api Token")
 
 
 @bot.message_handler(commands=["ecology"])
